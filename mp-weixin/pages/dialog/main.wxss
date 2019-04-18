@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-b4776ce4 {
+  width: 750rpx;
+  padding: 0;
+  overflow: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  justify-items: flex-start;
+}
+.content .sentence.data-v-b4776ce4 {
+    width: 100%;
+    margin: 20rpx;
+    width: 710rpx;
+}
+.content .sentence > ._div.data-v-b4776ce4 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+}
+.content .sentence > ._div ._div.data-v-b4776ce4 {
+        font-size: 25rpx;
+        max-width: 500rpx;
+        border-radius: 10rpx;
+        background: #aedaff;
+        -webkit-box-shadow: 1rpx 1rpx 10rpx #c0c0c0;
+                box-shadow: 1rpx 1rpx 10rpx #c0c0c0;
+        color: #fff;
+        margin: 0 10rpx;
+        padding: 0 20rpx;
+        min-height: 50rpx;
+        line-height: 50rpx;
+        vertical-align: center;
+        word-break: break-all;
+}
+.content .sentence > ._div image.data-v-b4776ce4:not(.for_photo) {
+        width: 50rpx;
+        height: 50rpx;
+        border-radius: 50%;
+        border: 1rpx solid #dddddd;
+        -webkit-box-shadow: 1rpx 1rpx 10rpx #d9d9d9;
+                box-shadow: 1rpx 1rpx 10rpx #d9d9d9;
+}
+.content .sentence .self ._div.data-v-b4776ce4 {
+      background: -o-linear-gradient(45deg, #7ba5ff, #a786ff);
+      background: linear-gradient(45deg, #7ba5ff, #a786ff);
+}
+.content .sentence .self.data-v-b4776ce4 {
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+}
+.content .sentence .for_photo.data-v-b4776ce4 {
+      margin: 0 15rpx;
+      max-width: 300rpx;
+      /*width: 100%;*/
+      border: 1rpx solid #dddddd;
+      -webkit-box-shadow: 1rpx 1rpx 10rpx #d9d9d9;
+              box-shadow: 1rpx 1rpx 10rpx #d9d9d9;
+}
+.content .bottom.data-v-b4776ce4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #ededed;
+}
+.content .bottom > ._div.data-v-b4776ce4:first-child {
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      width: 750rpx;
+}
+.content .bottom > ._div:first-child ._div.data-v-b4776ce4 {
+        text-align: center;
+        /*background: #09bb07;*/
+        margin: 0 10rpx;
+        width: 60rpx;
+}
+.content .bottom > ._div:first-child ._div ._i.data-v-b4776ce4 {
+          font-size: 60rpx;
+}
+.content .bottom > ._div:first-child input.data-v-b4776ce4 {
+        margin: 20rpx 0;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1;
+        display: inline-block;
+        border: 1rpx solid #f4f4f4;
+        border-radius: 10rpx;
+        background: #fff;
+        height: 60rpx;
+}
+.content .bottom .face.data-v-b4776ce4 {
+      display: inline-block;
+}
+.content .bottom .face image.data-v-b4776ce4 {
+        width: 45rpx;
+        height: 45rpx;
+        padding: 10rpx;
+        margin: 10rpx 0;
+}
+

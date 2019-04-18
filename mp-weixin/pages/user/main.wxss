@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container.data-v-e59abe82 {
+  background: #efeef4;
+  padding: 0;
+}
+.userTop.data-v-e59abe82 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200rpx;
+  background: -o-linear-gradient(135deg, #188af6, #77d2ff);
+  background: linear-gradient(-45deg, #188af6, #77d2ff);
+  width: 750rpx;
+  margin-bottom: 30rpx;
+  overflow: hidden;
+}
+.userTop image.data-v-e59abe82 {
+    border-radius: 20rpx;
+    width: 150rpx;
+    height: 150rpx;
+    margin: 0 40rpx;
+}
+.userTop > ._div.data-v-e59abe82:nth-child(2) {
+    font-size: 50rpx;
+    font-weight: lighter;
+    margin: 0 20rpx;
+}
+.userTop > ._div.data-v-e59abe82:nth-child(3) {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.userTop > ._div:nth-child(3) ._div ._i.data-v-e59abe82 {
+      font-size: 50rpx;
+      color: #db9c43;
+      float: right;
+      padding: 10rpx 20rpx;
+      /*background: #09bb07;*/
+}
+.userTop > ._div:nth-child(3) ._span.data-v-e59abe82 {
+      font-size: 25rpx;
+}
+.userTop > ._div:nth-child(3) ._span ._span.data-v-e59abe82 {
+        font-size: 60rpx;
+        font-weight: bold;
+        color: #fff;
+}
+.usermiddle.data-v-e59abe82 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+.usermiddle > ._div.data-v-e59abe82 {
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: #fff;
+    height: 90rpx;
+    line-height: 90rpx;
+    vertical-align: center;
+}
+.usermiddle > ._div ._div.data-v-e59abe82 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row;
+          -ms-flex-flow: row;
+              flex-flow: row;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.usermiddle > ._div ._div image.data-v-e59abe82 {
+        width: 50rpx;
+        margin: 0 30rpx;
+}
+.usermiddle > ._div ._i.data-v-e59abe82 {
+      float: right;
+      margin-right: 20rpx;
+}
+

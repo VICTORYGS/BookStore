@@ -1,0 +1,9 @@
+<import src="/components/swiper.vue.wxml" />
+<import src="/components/tag.vue.wxml" />
+<import src="/components/star.vue.wxml" />
+<import src="/components/line.vue.wxml" />
+<import src="/components/count.vue.wxml" />
+<import src="/components/collect.vue.wxml" />
+<import src="/components/uni-rate/uni-rate.vue.wxml" />
+<import src="/components/uni-rate/uni-icon.vue.wxml" />
+
